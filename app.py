@@ -20,7 +20,7 @@ def alert_message():
 
     response = {
         'result': 'success',
-        'message': "hello"
+        'message': f"hello {message}"
     }
     return jsonify(response)
 
